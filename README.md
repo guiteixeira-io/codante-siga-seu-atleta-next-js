@@ -1,13 +1,10 @@
 # Siga seu atleta | App Next.js fullstack
 
+![image](https://github.com/user-attachments/assets/5943e398-69bb-4ee7-b486-4c2efa739733)
+
 Nesse projeto vamos criar uma aplicação para dar visibilidade para os atletas paralímpicos e olímpicos do Brasil. A ideia é listar todos os atletas e suas contas do Instagram, filtrando por modalidades.
 
-
-## 🤓 Antes de começar
-
-Para essa aplicação, vamos usar dados reais dos atletas brasileiros. Esses dados foram coletados pelo time do Codante e estão disponíveis pra você em um arquivo `.sql`. Recomendamos que você utilize SQLite para a sua base de dados. Você pode utilizar o [plano gratuito do TursoDB](turso.tech) para isso.
-
-## 🔨 Requisitos
+## Detalhes
 
 ### Crie uma Navbar
 - Exibir a logo do projeto
@@ -37,19 +34,7 @@ Para essa aplicação, vamos usar dados reais dos atletas brasileiros. Esses dad
 - Permita que o usuário troque a ordenação entre: **seguidores**, **nome** e **esporte**.
 - Permita que o usuário altere a direção da ordenação entre: ascendente (do menor para o maior) e descendente (do maior para o menor). Por exemplo, a ordenação por seguidores pode começar com o atleta menos seguido (ascendente) ou com o mais seguido (descendente).
 
-## 🎨 Design Sugerido
-
-Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar a aplicação conforme a sua criatividade.
-
-O design sugerido no Figma contém layouts básicos para a aplicação, incluindo a página inicial com a lista de atletas, filtros e a barra de navegação.
-
-### Figma
-
-🔗 [Link do design](https://www.figma.com/community/file/1408455704705137276)
-
-## 👉🏽 Sobre esse mini-projeto
-
-### O que você irá praticar:
+## Tecnologías:
 
 Sugerimos que você faça esse projeto com Next.js e SQLite para o back-end.
 
@@ -57,19 +42,15 @@ Para conectar o SQLite com o Next, sugerimos o uso do Prisma.
 
 Para os componentes, sugerimos o uso do shadcn/ui.
 
-#### Next.js
+### Next.js
 
 - Pages, layout, server components e server actions
 - Paginação, busca e filtros
 - Componentes com shadcn/ui
 - Infinite scroll (scroll infinito)
 
-#### Prisma e SQLite
+### Prisma e SQLite
 
 - TursoDB
 - Criação de tabelas relacionais
 - Implementação de filtros
-
-### Pré requisitos
-
-É interessante que você saiba Javascript, React e o básico do Next para fazer esse projeto.
